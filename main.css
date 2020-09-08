@@ -454,6 +454,7 @@
   border: none;
   border-radius: 0;
   border-bottom: 1px solid #1f4468;
+  font-size: 18px;
 }
 
 .main___form #form .debtor_row #label {
