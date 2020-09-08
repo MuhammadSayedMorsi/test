@@ -455,6 +455,7 @@
   border-radius: 0;
   border-bottom: 1px solid #1f4468;
   font-size: 18px;
+  color: #1f4468;
 }
 
 .main___form #form .debtor_row #label {
@@ -523,4 +524,10 @@
   width: 75px;
   height: 45px;
   margin-left: 10px;
+}
+
+
+input::placeholder {
+  color: #1f4468;
+
 }
