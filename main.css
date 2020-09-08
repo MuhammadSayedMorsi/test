@@ -437,3 +437,27 @@
 .check___box .some__space {
   margin-left: 3px;
 }
+
+@media screen and (max-width: 776px) {
+  .main___form #form .customize__on__mobile {
+    display: none;
+  }
+}
+
+
+.main___form #form .debtor_row h2 {
+    font-size: 18px;
+    color: #1f4468;
+}
+
+.main___form #form .debtor_row input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #000;
+}
+
+.main___form #form .debtor_row #label {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
