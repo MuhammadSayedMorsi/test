@@ -511,3 +511,15 @@
   bottom: 0;
 
 }
+
+
+
+.expire_row .credit__number_flex_column {
+  display: flex;
+}
+
+.expire_row .credit__number_flex_column input {
+  width: 75px;
+  height: 45px;
+  margin-left: 10px;
+}

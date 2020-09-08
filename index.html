@@ -13,7 +13,7 @@
   <div class="main___form">
   <div class="container">
     <div class="header">
-      <img src="./WebResultsLogo2.png" alt="WebResultsLogo2">
+      <img src="./img/WebResultsLogo2.png" alt="WebResultsLogo2">
     </div>
     <form id="form" class="form">
       <div class="border_input">
@@ -116,7 +116,7 @@
         <div class="form-control">
           <label for="username">Password</label>
           <input type="password" placeholder="Password" id="password" style="padding-left: 30px;"/>
-          <img src="./lock_icon.png" alt="" class="lock_icon">
+          <img src="./img/lock_icon.png" alt="" class="lock_icon">
 
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
@@ -125,7 +125,7 @@
         <div class="form-control">
           <label for="username">Password check</label>
           <input type="password" placeholder="Re-type Password" id="password2" style="padding-left: 30px;"/>
-          <img src="./lock_icon.png" alt="" class="lock_icon">
+          <img src="./img/lock_icon.png" alt="" class="lock_icon">
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
@@ -147,7 +147,11 @@
 
               <div class="expire_row">
                 <label for="expiry" class="lab_expire">Card Expiry<b style="margin-left:3px; font-style:italic;">( M ) / ( Y )</b></label>
-                <input class="expire_date" name="expiry" id="expiry" type="month" required/>
+                <div class="credit__number_flex_column">
+                  <input type="number" placeholder="MM">
+                  <input type="number" placeholder="YY">
+                </div>
+
               </div>
 
               <div class="cvc_row">
@@ -164,5 +168,6 @@
   </div>
 </div>
 <script src="main.js"></script>
+<script src="valid.js"></script>
 </body>
 </html>
