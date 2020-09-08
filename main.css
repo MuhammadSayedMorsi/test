@@ -355,5 +355,85 @@
 }
 
 .main___form .container #form input {
-  color: #1f4468
+  color: #1f4468;
+}
+
+.main___form .container #form p {
+  font-size: 18px;
+  color: #1f4468;
+
+}
+
+
+/* label */
+
+.main___form .container #form .check__label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.main___form .container #form .check__label  input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* On mouse-over, add a grey background color */
+.check__label:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check__label input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Show the checkmark when checked */
+.check__label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check__label .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.main___form .container #form label {
+  display: flex;
+  justify-content: start;
+  margin-top: 17px;
+}
+
+
+.check___box  {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.check___box #check__box__width {
+  width: 20px;
+}
+
+.check___box .some__space {
+  margin-left: 3px;
 }
