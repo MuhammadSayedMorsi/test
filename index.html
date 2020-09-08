@@ -105,55 +105,60 @@
           <input type="text" id="name__label" />
         </div>
       </div>
+      <div class="border_input">
+        <div class="form-control">
+          <label for="username">Email</label>
+          <input type="email" placeholder="Email" id="email" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Password</label>
+          <input type="password" placeholder="Password" id="password" style="padding-left: 30px;"/>
+          <img src="./lock_icon.png" alt="" class="lock_icon">
 
-      <div class="form-control">
-        <label for="username">Email</label>
-        <input type="email" placeholder="Email" id="email" />
-        <i class="fas fa-check-circle"></i>
-        <i class="fas fa-exclamation-circle"></i>
-        <small>Error message</small>
-      </div>
-      <div class="form-control">
-        <label for="username">Password</label>
-        <input type="password" placeholder="Password" id="password"/>
-        <i class="fas fa-check-circle"></i>
-        <i class="fas fa-exclamation-circle"></i>
-        <small>Error message</small>
-      </div>
-      <div class="form-control">
-        <label for="username">Password check</label>
-        <input type="password" placeholder="Re-type Password" id="password2"/>
-        <i class="fas fa-check-circle"></i>
-        <i class="fas fa-exclamation-circle"></i>
-        <small>Error message</small>
-      </div>
-      <div class="form-control">
-        <div class="card_from">
-          <div class="credit_card_parent">
-            <label for="username">Card Number</label>
-            <div class="credit_card">
-              <input class="inputCard" type="number" min="1000" max="9999" name="creditCard1" id="creditCard1" required/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Password check</label>
+          <input type="password" placeholder="Re-type Password" id="password2" style="padding-left: 30px;"/>
+          <img src="./lock_icon.png" alt="" class="lock_icon">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <div class="card_from">
+            <div class="credit_card_parent">
+              <label for="username">Card Number</label>
+              <div class="credit_card">
+                <input class="inputCard" type="number" min="1000" max="9999" name="creditCard1" id="creditCard1" required/>
 
-              <input class="inputCard" type="number" min="1000" max="9999" name="creditCard2" id="creditCard2" required/>
+                <input class="inputCard" type="number" min="1000" max="9999" name="creditCard2" id="creditCard2" required/>
 
-              <input class="inputCard" type="number" min="1000" max="9999" name="creditCard3" id="creditCard3" required/>
+                <input class="inputCard" type="number" min="1000" max="9999" name="creditCard3" id="creditCard3" required/>
 
-              <input class="inputCard" type="number" min="1000" max="9999"  name="creditCard4" id="creditCard4" required/>
+                <input class="inputCard" type="number" min="1000" max="9999"  name="creditCard4" id="creditCard4" required/>
+              </div>
             </div>
+
+              <div class="expire_row">
+                <label for="expiry" class="lab_expire">Card Expiry<b style="margin-left:3px; font-style:italic;">( M / Y )</b></label>
+                <input class="expire_date" name="expiry" id="expiry" type="month" required/>
+              </div>
+
+              <div class="cvc_row">
+                <label for="cvc" class="lab_cvc">CVC</label>
+                <input class="cvc_input" name="cvc" id="cvc" type="number" required/>
+              </div>
           </div>
 
-            <div class="expire_row">
-              <label for="expiry" class="lab_expire">Card Expiry</label>
-              <input class="expire_date" name="expiry" id="expiry" type="month" required/>
-            </div>
-
-            <div class="cvc_row">
-              <label for="cvc" class="lab_cvc">CVC</label>
-              <input class="cvc_input" name="cvc" id="cvc" type="number" required/>
-            </div>
         </div>
+    </div>
 
-      </div>
       <button>Submit</button>
     </form>
   </div>

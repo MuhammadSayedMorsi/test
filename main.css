@@ -498,3 +498,16 @@
 .border_input input {
   border: 2px solid #000 !important;
 }
+
+#password, #password2 {
+  position: relative;
+}
+.lock_icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 33px;
+  left: 4px;
+  bottom: 0;
+
+}
