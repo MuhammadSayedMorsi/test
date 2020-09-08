@@ -453,11 +453,43 @@
 .main___form #form .debtor_row input {
   border: none;
   border-radius: 0;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #1f4468;
 }
 
 .main___form #form .debtor_row #label {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+
+.main___form #form .date_customize {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main___form #form .date_customize .date_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main___form #form .date_customize #date_row_date {
+  margin-right: 10px;
+}
+
+.main___form #form .date_customize .date_row input {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #1f4468;
+}
+
+.sig_customize #name__label {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #1f4468;
+}
+
+.sig_customize .date_row {
+  display: flex;
+  justify-content: space-between;
 }
