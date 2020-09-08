@@ -493,3 +493,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+
+.border_input input {
+  border: 2px solid #000 !important;
+}
